@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="music" unicode="&#xe800;" d="M857 725v-625q0-28-19-50t-48-33-58-18-53-6-54 6-58 18-48 33-19 50 19 50 48 33 58 18 54 6q58 0 107-22v300l-429-132v-396q0-28-19-50t-48-33-58-18-53-6-54 6-58 18-48 33-19 50 19 50 48 34 58 17 54 6q58 0 107-21v539q0 17 10 32t28 20l464 142q7 3 16 3 22 0 38-16t15-38z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="camera-alt" unicode="&#xe801;" d="M518 386q0 8-5 13t-13 5q-37 0-63-27t-26-63q0-7 5-12t13-6 12 6 5 12q0 23 16 38t38 16q8 0 13 5t5 13z m125-73q0-59-42-101t-101-42-101 42-42 101 42 101 101 42 101-42 42-101z m-572-320h858v71h-858v-71z m643 320q0 89-62 152t-152 63-151-63-63-152 63-151 151-63 152 63 62 151z m-571 358h214v72h-214v-72z m-72-107h858v143h-462l-36-71h-360v-72z m929 143v-714q0-30-21-51t-50-21h-858q-29 0-50 21t-21 51v714q0 30 21 51t50 21h858q29 0 50-21t21-51z" horiz-adv-x="1000" />
+
+<glyph glyph-name="apple" unicode="&#xf179;" d="M777 172q-21-70-68-139-72-110-144-110-27 0-78 18-48 18-84 18-34 0-79-19-45-19-74-19-85 0-168 145-82 146-82 281 0 127 63 208 63 81 159 81 40 0 98-17 58-17 77-17 25 0 80 19 57 19 97 19 66 0 119-36 29-20 58-56-44-37-64-66-36-52-36-115 0-69 38-125t88-70z m-209 655q0-34-17-76-16-42-52-77-30-30-60-40-20-7-58-10 2 83 44 143 41 60 139 83 1-2 2-6t1-6q0-2 0-6t1-5z" horiz-adv-x="785.7" />
+</font>
+</defs>
+</svg>
