@@ -1,0 +1,67 @@
+.body{
+    position: relative;
+    background-color: #fafafa;
+    margin:0;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    background-color: #fafafa;
+    margin-top:10px;
+    height: 220px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.wrapper2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float:right;
+    margin-right: 250px;
+}
+.profile{
+    position: relative;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+#imbora{
+    border-radius: 50%;
+    width:160px;
+    height:160px;
+}
+
+.introduce{
+    margin-top:15px;
+    font-size:30px;
+    padding: 5px;
+}
+.follow, .recommend{
+    text-align: center;
+    color: white;
+    background-color: #0095f6;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 0px solid;
+    
+}
+.follow{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width:100px;
+}
+.recommend{
+    width: 30px;
+}
+.menu{
+    background-color: #fafafa;
+    border:0px solid;
+    cursor: pointer;
+}
+.writing{
+    margin-top: 20px;
+    font-size:1.2rem;
+}
+.name{
+    font-size: 1rem;
+}

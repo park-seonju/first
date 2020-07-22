@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Yellowtail&display=swap");
+.head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    top:0;
+    padding-top: 10px;
+    border-bottom: 1px solid silver;
+    background-color: white;
+    /* z-index: 0; */
+}
+.instagram {
+    margin-left:200px;
+    width: 115px;
+}
+.search2{
+    margin-top:5px;
+    background-color: #fafafa;
+    border: 1px solid silver;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+    margin-left: 90px;
+}
+.logo{
+    margin-right:220px;
+    font-size:1.5rem;
+    padding: 2px;
+}

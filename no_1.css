@@ -226,6 +226,7 @@ ul li {
 }
 
 .button {
+    cursor: pointer;
     border: 0px;
     background-color: lightskyblue;
     font-weight: bold;
