@@ -45,9 +45,9 @@
                             <header>
                                 <img src="imbora2.jpeg" alt="">
                                 <div class="headtext">
-                                <div class="user_name" id="username">3.48kg</div>
-                                <div class="plus" id="modal_open_btn">⦁⦁⦁</div>
-                            </div>
+                                    <div class="user_name" id="username">3.48kg</div>
+                                    <div class="modal_open_btn">⦁⦁⦁</div>
+                                </div>
                             </header>
                             <div class="card_image">
                                 <img src="imbora.jpg" alt="">
@@ -80,9 +80,44 @@
                             <header>
                                 <img src="imbora2.jpeg" alt="">
                                 <div class="headtext">
-                                <div class="user_name" id="username">3.48kg</div>
-                                <div class="plus" id="modal_open_btn" onclick="modal()">⦁⦁⦁</div>
+                                    <div class="user_name" id="username">3.48kg</div>
+                                    <div class="modal_open_btn">⦁⦁⦁</div>
+                                </div>
+                            </header>
+                            <div class="card_image">
+                                <img src="imbora.jpg" alt="">
                             </div>
+                            <div class="info">
+                                <div class="info_left">
+                                    <i class="far fa-heart"></i>
+                                    <i class="far fa-comment"></i>
+                                    <i class="fas fa-upload"></i>
+                                </div>
+                                <div class="info_right">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                comment1<br>
+                                comment2<br>
+                            </div>
+                            <div class="comment_form">
+                                <form action="">
+                                    <input type="text" placeholder="댓글 입력..">
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="left">
+                    <section class="card_section">
+                        <div class="card">
+                            <header>
+                                <img src="imbora2.jpeg" alt="">
+                                <div class="headtext">
+                                    <div class="user_name" id="username">3.48kg</div>
+                                    <div class="modal_open_btn">⦁⦁⦁</div>
+                                </div>
                             </header>
                             <div class="card_image">
                                 <img src="imbora.jpg" alt="">
@@ -110,21 +145,35 @@
                     </section>
                 </div>
             </div>
-            
+
         </div>
         <div class="main_right">
             <div class="right_nav">
                 <div class="hihello">
                     <img class="imbora3" src="imbora2.jpeg" alt="">
-                    <div id="text_nav"> <div id="username">3.48kg </div> <span class="swings">임보라</span> </div>
+                    <div id="text_nav">
+                        <div id="username">3.48kg </div> <span class="swings">임보라</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- 첫 번째 Modal -->
+    <div class="modal showing">
+
+        <!-- 첫 번째 Modal의 내용 -->
+        <div class="modal-content">
+            <button class="modalcontent top">부적절한 콘텐츠 신고</button>
+            <button class="modalcontent line two">팔로우 취소</button>
+
+            <button class="modalcontent line">게시물로 이동</button>
+
+            <button class="modalcontent bottom" id="cancel">취소</button>
+        </div>
+    </div>
 </body>
 <script src="main.js">
-    function modal(){
-        alert("qkrtjswn");
-    }
 </script>
+
 </html>

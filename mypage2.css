@@ -1,4 +1,5 @@
 .body{
+    margin:0;
     background-color: #efefef;
 }
 .main{
@@ -33,7 +34,7 @@
 }
 .main_right{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .right_nav{
    position: fixed;
@@ -96,7 +97,8 @@ header img{
 .user_name{
     padding-top: 22px;
 }
-.plus{
+.modal_open_btn{
+    cursor: pointer;
     padding-right:20px;
     padding-top: 22px;
 

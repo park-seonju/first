@@ -30,10 +30,10 @@
         <div class="total">
             <div class="container">
                 <h1 id="insta">Instagram</h1>
-                <form method="POST" action="http://localhost:3000/login">
-                    <p><input class="id_txt" id="id" type="text" placeholder="전화번호, 사용자 이름 또는 이메일"></p>
-                    <p><input class="pwd" id="pwd"type="password" placeholder="비밀번호"></p>
-                    <p><input class="button" id="button" type="button" value="로그인" onclick="login_click()"></a></p>
+                <form method="POST" action="http://localhost:3000/login" name="f1">
+                    <p><input class="id_txt" id="id" name="id" type="id" placeholder="전화번호, 사용자 이름 또는 이메일"></p>
+                    <p><input class="pwd" id="pwd" name="password" type="password" placeholder="비밀번호" onfocus="seon()"></p>
+                    <p><input class="button" id="button" type="button" value="로그인" onclick="login_click()" onfocus="seon()" disabled="disabled"></a></p>
                 </form>
                 <span class="hi">----------------- 또는 ----------------</span>
                 <p><a href="https://www.facebook.com/login">Facebook으로 로그인
@@ -93,5 +93,17 @@
         localStorage.setItem("userInfo",JSON.stringify(user));
         location.href='mypage2.html';
    }
+function seon(){
+    var but = document.querySelector("#button");
+    var id = document.querySelector("#id").value;
+    var pwd = document.querySelector("#pwd").value;
+    if(id.length>0&&pwd.length>6){
+        but.style.backgroundColor="rgb(0,149,246)";
+    }
+    else{
+        but.style.backgroundColor="rgba(0,149,249,0.2)";
+    }
+    setTimeout("seon()" ,0);
+}
 </script>
 </html>

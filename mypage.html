@@ -7,6 +7,7 @@
     <style>
         @import url("mypage.css");
         @import url("top-bar.css");
+        @import url("modal.css");
     </style>
     <title>mypage</title>
 </head>
@@ -32,14 +33,27 @@
             </div>
             <div class="introduce">
                 <span class="id">3.48kg</span>
-                <input class="follow" type="button" value="팔로우">
-                <input class="recommend" type="button" value="∇">
-                <input class="menu" type="button" value="• • •">
+                <input id="change1" class="follow" type="button" value="팔로우">
+                <input id="change2" class="recommend" type="button" value="∇">
+                <input class="modal_open_btn" type="button" value="• • •">
             <div class="writing">게시물 289 팔로워 1.5백만 팔로우 414</div>
             <span class="name">임보라</span>
             </div>
         </div>
     </div>
-</body>
+     <!-- 첫 번째 Modal -->
+     <div class="modal showing">
 
+        <!-- 첫 번째 Modal의 내용 -->
+        <div class="modal-content">
+            <button class="modalcontent top">부적절한 콘텐츠 신고</button>
+            <button class="modalcontent line two">팔로우 취소</button>
+
+            <button class="modalcontent line">게시물로 이동</button>
+
+            <button class="modalcontent bottom" id="cancel">취소</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
 </html>
