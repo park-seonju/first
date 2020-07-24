@@ -11,19 +11,17 @@
     background-color: #fafafa;
     margin-top:10px;
     height: 220px;
-    border-bottom: 1px solid #dbdbdb;
 }
 .wrapper2{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    float:right;
-    margin-right: 250px;
+    width:900px;
 }
 .profile{
     position: relative;
     margin-top: 20px;
-    margin-right: 80px;
+    margin-right: 100px;
+    margin-left : 50px;
 }
 #imbora{
     border-radius: 50%;
@@ -64,4 +62,30 @@
 }
 .name{
     font-size: 1rem;
+}
+.half{
+    border-top:1px solid silver;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    height: 30px;
+    width: 950px;
+    margin-left: 280px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    cursor: pointer;
+    width:60px;
+    height:53px;
+    padding:15px;
+    margin-right: 60px;
+    border-top:1px solid black;
+}
+.tag{
+    cursor: pointer;
+    width:60px;
+    height:53px;
+    padding:15px;
 }
